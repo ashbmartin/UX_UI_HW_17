@@ -41,11 +41,29 @@ body {
 .heroButton {
     border-radius: 6px;
 background: #CD655E;
-padding: 10px 67px;
+padding: 10px 110px;
 }
 h1 {
     color: #DEDEDE;
+    display:inline-flex;
+    align-items: center;
 }
 p {
     color: #DEDEDE;
+}
+.footer { 
+    display: inline-flex;
+    padding: 150px;
+}
+h2 {
+    color: #DEDEDE;
+}
+.footerButton{
+border-radius: 6px;
+background: #9ECA7E;
+padding: 10px 110px;
+color: #494949;
+display: block;
+justify-content: center;
+align-items: center;
 }
