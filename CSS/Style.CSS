@@ -51,12 +51,28 @@ h1 {
 p {
     color: #DEDEDE;
 }
+.description{ 
+    text-align: center;}
+    .myWorkTitle{ 
+      display: flex; justify-content: space-between;}
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
 .footer { 
     display: inline-flex;
     padding: 150px;
 }
 h2 {
     color: #DEDEDE;
+}
+.work{
+    margin: 0 10% 0 10%;
+}
+.cardTitle{
+    font-weight: 400;
 }
 .footerButton{
 border-radius: 6px;
@@ -66,4 +82,14 @@ color: #494949;
 display: block;
 justify-content: center;
 align-items: center;
+}
+.footerTitle{
+display: block;
+justify-content: center;
+align-items: center;
+}
+.buttonSection{
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
